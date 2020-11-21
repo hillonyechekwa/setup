@@ -1,0 +1,15 @@
+build:
+    functions: functions
+    commad: npm build
+    pubilsh: public
+
+dev:
+   command: npm start
+   targetPort: 8000
+   port: 8888
+   framework: #custom
+   pubilsh: dist
+   autoLaunch: true
+  
+
+plugins
